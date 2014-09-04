@@ -1,0 +1,53 @@
+/*
+  custom css files are loaded after core css files. Simply use the same selector to override a style.
+  Example:
+      #editbar LI {border:1px solid #000;}
+    overrides
+      #editbar LI {border:1px solid #d5d5d5;}
+    from pad.css
+*/
+div.toolbar {
+  background: #34b5c3;
+  min-height: 50px;
+  padding-top: 10px;
+}
+@media (min-width: 800px) {
+  .toolbar ul.menu_left {
+    margin-left: 240px;
+    background-image: url('../../static/custom/logo.png');
+    background-size: 228px 24px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    padding-left: 240px;
+  }
+}
+div.toolbar ul li a {
+  background: #34b5c3;
+  border: 1px solid #EEE;
+}
+span.buttonicon {
+  background-image: url('../../static/custom/etherpad_lite_icons_custom.png');
+}
+div#editorcontainer {
+  top: 50px;
+}
+div#chatbox {
+  top: 50px;
+}
+#rtcbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 50px;
+  width: 293px;
+  z-index: 1;
+  border-right: 1px solid #999;
+  border-top: 1px solid #999;
+  padding: 3px;
+  padding-bottom: 10px;
+  background-color: #EEEEEE;
+  height: auto;
+  border: none;
+  border-right: 1px solid #ccc;
+  display: none;
+}
