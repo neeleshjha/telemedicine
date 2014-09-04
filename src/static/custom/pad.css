@@ -35,19 +35,7 @@ div#chatbox {
   top: 50px;
 }
 #rtcbox {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 50px;
-  width: 293px;
-  z-index: 1;
-  border-right: 1px solid #999;
-  border-top: 1px solid #999;
-  padding: 3px;
-  padding-bottom: 10px;
-  background-color: #EEEEEE;
-  height: auto;
-  border: none;
-  border-right: 1px solid #ccc;
-  display: none;
+  top: 50px !important;
+  width: 293px !important;
+  background-color: #EEEEEE !important;
 }
