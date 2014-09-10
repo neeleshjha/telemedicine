@@ -6,7 +6,6 @@ bin/node.exe
 etherpad-lite-win.zip
 var/dirty.db
 bin/convertSettings.json
-*~
 *.patch
 src/static/js/jquery.js
 npm-debug.log
