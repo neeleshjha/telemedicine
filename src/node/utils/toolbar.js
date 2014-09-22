@@ -203,13 +203,13 @@ module.exports = {
     settings: defaultButtonAttributes("settings"),
     embed: defaultButtonAttributes("embed"),
     showusers: defaultButtonAttributes("showusers"),
-    
+
     timeslider_export: {
       command: "import_export",
       localizationId: "timeslider.toolbar.exportlink.title",
       class: "buttonicon buttonicon-import_export"
     },
-    
+
     timeslider_returnToPad: {
       command: "timeslider_returnToPad",
       localizationId: "timeslider.toolbar.returnbutton",

@@ -13,7 +13,7 @@
   "pad.toolbar.undo.title": "Undo (Ctrl-Z)",
   "pad.toolbar.redo.title": "Redo (Ctrl-Y)",
   "pad.toolbar.clearAuthorship.title": "Clear Authorship Colors",
-  "pad.toolbar.import_export.title": "Import/Export from/to different file formats",
+  "pad.toolbar.import_export.title": "Download to different file formats",
   "pad.toolbar.timeslider.title": "Timeslider",
   "pad.toolbar.savedRevision.title": "Save Revision",
   "pad.toolbar.settings.title": "Settings",
@@ -40,10 +40,10 @@
   "pad.settings.globalView": "Global View",
   "pad.settings.language": "Language:",
 
-  "pad.importExport.import_export": "Import/Export",
+  "pad.importExport.import_export": "Downloaad",
   "pad.importExport.import": "Upload any text file or document",
   "pad.importExport.importSuccessful": "Successful!",
-  "pad.importExport.export": "Export current pad as:",
+  "pad.importExport.export": "Export current note as:",
   "pad.importExport.exporthtml": "HTML",
   "pad.importExport.exportplain": "Plain text",
   "pad.importExport.exportword": "Microsoft Word",
@@ -85,14 +85,16 @@
   "pad.modals.disconnected": "You have been disconnected.",
   "pad.modals.disconnected.explanation": "The connection to the server was lost",
   "pad.modals.disconnected.cause": "The server may be unavailable. Please notify the service administrator if this continues to happen.",
-  
-  "pad.share": "Share this pad",
+
+  "pad.share": "Share this note",
   "pad.share.readonly": "Read only",
   "pad.share.link": "Link",
   "pad.share.emebdcode": "Embed URL",
   "pad.chat": "Chat",
-  "pad.chat.title": "Open the chat for this pad.",
+  "pad.chat.title": "Open the chat for this note.",
   "pad.chat.loadmessages": "Load more messages",
+
+  "pad.bottom.note": "Sessions are automatically deleted after 5 days to prevent brute force attacks, please import the resulting note to your EHR or PHR immediately after your telemedicine session is over",
 
   "timeslider.pageTitle": "{{appTitle}} Timeslider",
   "timeslider.toolbar.returnbutton": "Return to pad",
