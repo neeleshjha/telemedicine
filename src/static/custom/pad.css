@@ -29,6 +29,16 @@ div.toolbar ul li a {
 span.buttonicon {
   background-image: url('../../static/custom/etherpad_lite_icons_custom.png');
 }
+span.buttonicon.buttonicon-import_export {
+  background-image: url('../../static/custom/export.png');
+  background-position: 0px 0px;
+  background-size: 16px 16px;
+}
+span.buttonicon.buttonicon-embed {
+  background-image: url('../../static/custom/share.png');
+  background-position: 0px 0px;
+  background-size: 16px 16px;
+}
 div#editorcontainer {
   top: 50px;
   left: 297px !important;
@@ -40,4 +50,10 @@ div#chatbox {
   top: 50px !important;
   width: 293px !important;
   background-color: #EEEEEE !important;
+}
+#footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  z-index: 101;
 }
