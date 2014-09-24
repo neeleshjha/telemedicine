@@ -13,12 +13,10 @@ div.toolbar {
 }
 @media (min-width: 800px) {
   .toolbar ul.menu_left {
-    margin-left: 240px;
-    background-image: url('../../static/custom/new_logo.png');
-    background-size: 194px 36px;
+    background-image: url('../../static/custom/osten_logo.png');
     background-repeat: no-repeat;
     margin-left: 10px;
-    padding-left: 240px;
+    padding-left: 150px;
     min-height: 40px;
   }
 }
